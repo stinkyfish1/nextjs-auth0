@@ -12,7 +12,7 @@ const NavBar = () => {
     <div className="py-4 flex w-full justify-between bg-gray-800 px-44 text-white">
       <div className="flex gap-8">
         <a href="/" className="hover:text-gray-400">Home</a>
-        <a href="/components/adminpanel" className="hover:text-gray-400">Admin Panel</a>
+        <a href="/profile" className="hover:text-gray-400">Profile</a>
       </div>
       <div className="flex gap-4">
         {!user && !isLoading && (
