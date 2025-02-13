@@ -9,10 +9,10 @@ import React from "react";
 const NavBar = () => {
   const { user, error, isLoading } = useUser();
   return (
-    <div className="py-4 flex w-full justify-between bg-gray-800 px-44">
+    <div className="py-4 flex w-full justify-between bg-gray-800 px-44 text-white">
       <div className="flex gap-8">
-        <a href="/">Home</a>
-        
+        <a href="/" className="hover:text-gray-400">Home</a>
+        <a href="/components/adminpanel" className="hover:text-gray-400">Admin Panel</a>
       </div>
       <div className="flex gap-4">
         {!user && !isLoading && (
