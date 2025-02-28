@@ -1,3 +1,11 @@
+## My School Project
+
+This is my second time using Next.Js and the first time i used Auth0 authentication.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
