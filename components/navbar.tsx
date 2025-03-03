@@ -14,6 +14,7 @@ const NavBar = () => {
         <a href="/" className="hover:text-gray-200 text-lg font-semibold">Home</a>
         <a href="/profile" className="hover:text-gray-200 text-lg font-semibold">Profile</a>
         <a href="/memoryGame" className="hover:text-gray-200 text-lg font-semibold">Memorygame</a>
+        <a href="/images" className="hoved:text-gray-200 text-lg font-semibold">Images</a>
       </div>
       <div className="flex gap-4">
         {!user && !isLoading && (
