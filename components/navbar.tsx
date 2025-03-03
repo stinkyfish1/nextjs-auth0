@@ -13,7 +13,7 @@ const NavBar = () => {
       <div className="flex gap-8">
         <a href="/" className="hover:text-gray-200 text-lg font-semibold">Home</a>
         <a href="/profile" className="hover:text-gray-200 text-lg font-semibold">Profile</a>
-        <a href="/memoryGame" className="hover:text-gray-200 text-lg font-semibold">Chat</a>
+        <a href="/memoryGame" className="hover:text-gray-200 text-lg font-semibold">Memorygame</a>
       </div>
       <div className="flex gap-4">
         {!user && !isLoading && (
