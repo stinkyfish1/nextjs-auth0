@@ -13,12 +13,12 @@ const Profile = async () => {
   return (
     <div className="content-layout px-44 py-8">
       <div className="text-center">
-        <img src={user.picture} alt={displayName} className="rounded-full w-24 h-24 mx-auto" />
-        <h2 className="text-2xl font-bold mt-4">Welcome, {displayName}!</h2>
+        <img src={user.picture} alt={displayName + "this is your profile name"} className="rounded-full w-24 h-24 mx-auto" />
+        <h1 className="text-2xl font-bold mt-4">Welcome, {displayName}!</h1>
         <p className="text-lg text-gray-600">{user.email}</p>
       </div>
       <div className="mt-8">
-        <h3 className="text-xl font-semibold">Profile Information</h3>
+        <h2 className="text-xl font-semibold">Profile Information</h2>
         <div className="mt-4">
           <p className="text-lg"><strong>Nickname:</strong> {user.nickname}</p>
           <p className="text-lg"><strong>Email Verified:</strong> {user.email_verified ? "Yes" : "No"}</p>

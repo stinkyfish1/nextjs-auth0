@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         <Link href="/profile" className="text-blue-500 mt-4" onClick={handleProfileClick}>
           Go to Profile Page
         </Link>
-        <img src="/full_stack_web_developer_salary-1.jpg" alt="man" />
+        <img src="/full_stack_web_developer_salary-1.jpg" alt="man that codes and is happy" />
       </div>
     </div>
   );
